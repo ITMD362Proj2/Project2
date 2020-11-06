@@ -1,0 +1,48 @@
+/* ===== BASE STYLES ===== */
+
+/*
+  Major Sixth Modular Scale:
+  http://www.modularscale.com/?22&px&1.667&web&text
+*/
+html {
+ 
+}
+body {
+
+}
+h1 {
+
+}
+h4 {
+
+}
+p {
+
+}
+label {
+
+}
+input {
+
+}
+form {
+
+}
+
+input:hover {
+
+}
+
+@media only screen and (min-width: 720px) {
+
+
+  html {
+
+  }
+}
+@media only screen and (min-width: 1024px) {
+
+  html {
+
+  }
+}

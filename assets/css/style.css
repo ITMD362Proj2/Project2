@@ -23,16 +23,16 @@ ol,ul {
   list-style: none;
 }
 nav{
-  border:1px solid rgb(66, 60, 60);
-  background-color: rgb(37, 118, 211);
-  border-width:1px 0;
   list-style:none;
   margin:0;
   padding:0;
   text-align:center;
 }
-nav:hover{
-  background-color: rgb(37, 83, 211);
+.logo {
+  float: left;
+}
+.name{
+  align-self: center;
 }
 nav li{
   display:inline;
@@ -41,7 +41,7 @@ nav a{
   display:inline-block;
   padding:10px;
   text-decoration:none;
-  background-color:rgb(211, 197, 208);
+  background-color:rgb(29, 148, 216);
   color:rgb(15, 32, 32);
 }
 nav a:hover {
@@ -67,6 +67,9 @@ input:hover {
 
   html {
 
+  }
+  .logo{
+    size: 50%;
   }
 }
 @media only screen and (min-width: 1024px) {

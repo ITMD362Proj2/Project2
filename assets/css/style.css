@@ -6,17 +6,40 @@
 */
 html {
 }
+
 body {
 
 }
+.navigation{
+  border-bottom: 5px solid rgb(22, 19, 209);
+}
 h1 {
+  font-size: 1.75em;
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 0.5em;
   list-style: none;
   margin: 0;
-  padding: 0;
   text-align: center;
-  font-size: 1.7em;
   color:rgb(11, 8, 163);
 }
+.index h2{
+  font-size: 1.35em;
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 0.5em;
+  margin-top: 2.5em;
+  text-align: center;
+  color:rgb(22, 19, 209);
+}
+
+.index p{
+  font-size: 1.1em;
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 0.5em;
+  margin: 0;
+  text-align: center;
+  color:rgb(22, 19, 209);
+}
+
 h4 {
 
 }
@@ -34,6 +57,7 @@ nav{
  
 }
 .logo {
+  padding: 5px;
   position:fixed; 
 	top:0; 
 	left:0; 
@@ -79,7 +103,7 @@ input:hover {
 
 
   html {
-
+    font-size: 125%;
   }
   .logo{
     size: 50%;
@@ -88,26 +112,22 @@ input:hover {
     opacity: 1;
   }
   h1 {
-    font-size: 2.5em;
   }
   nav li{
-    font-size: 1.7em;
     
   }
 }
 @media only screen and (min-width: 1024px) {
 
   html {
-
+    font-size: 150%;
   }
   .logo{
     opacity: 1;
   }
   h1 {
-    font-size: 2.8em;
   }
   nav li{
-    font-size: 2em;
     
   }
 }

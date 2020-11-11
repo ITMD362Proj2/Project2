@@ -30,11 +30,20 @@ nav{
  
 }
 .logo {
-  float: left;
+  position:fixed; 
+	top:0; 
+	left:0; 
+  width: 7%;
+  margin: auto;
+  display: inline-flex;
+  opacity: 0;
+
 }
 .name{
-  align-self: center;
-  /*display: inline;*/
+  width: 60%;
+  margin: auto;
+  display: block;
+  
 }
 nav li{
   display:inline;
@@ -42,7 +51,7 @@ nav li{
   
 }
 nav a{
-  display:inline-block;
+  display:inline-flex;
   padding:10px;
   text-decoration:none;
   /*background-color:rgb(29, 148, 216);
@@ -76,10 +85,16 @@ input:hover {
   .logo{
     size: 50%;
   }
+  .logo{
+    opacity: 1;
+  }
 }
 @media only screen and (min-width: 1024px) {
 
   html {
 
+  }
+  .logo{
+    opacity: 1;
   }
 }

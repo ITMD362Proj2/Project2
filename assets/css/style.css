@@ -109,13 +109,49 @@ nav a:hover {
   /*background-color:#009;*/
   color:rgb(39, 167, 218);
 }
-label {
 
+#checkbox-label{
+	vertical-align:middle;
+	display:inline-block;
 }
+
+label{
+	width:240px;
+	font-size:15pt;
+	color:#FFFAFA;
+	margin:5px;
+	display:inline-block;
+	font-weight:bold;
+}
+
 input {
+	border-radius:20px;
+	border-color:#DC143C;
+	display:block;
+	padding:20px 20px;
+	margin:auto;
+	background-color:black;
+	color:white;
+	font-weight:bold;
 
 }
+::placeholder{
+	color:white;
+}
+
+input[type=submit]{
+	width:240px;
+	color:black;
+	margin:auto;
+	background-color:white;
+	align:center;
+
+	
+	
 form {
+	align:center;
+	display:inline-block;
+	
 
 }
 

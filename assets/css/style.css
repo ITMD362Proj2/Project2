@@ -146,7 +146,7 @@ input[type=submit]{
 	background-color:white;
 }	
 form {
-	
+	align:center;
 	display:inline-block;
 	
 
@@ -163,7 +163,7 @@ input:hover {
     font-size: 125%;
   }
   .logo{
-    resize: 50%;
+    size: 50%;
   }
   .logo{
     opacity: 1;

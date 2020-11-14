@@ -66,31 +66,38 @@ h1 {
 
 
 /* made for the about page*/
+.about{}
 .about p{
   text-align: center;
+  line-height: 2;
   /*color:rgb(22, 19, 209);*/
   /*text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5),
   1px 1px 2px rgba(0, 0, 0, 0.5)*/
+
+  
 }
 
-
-h2 {
+.about h2 {
   font-size: 1.182em;
   line-height: 0.75em; /* 26px / ~ 120% */
   padding: 0.5em;
-  list-style: none;
+
   margin: 0;
   text-align: center;
   color:rgb(11, 8, 163);
 
 }
 
-ol {
-  list-style-type: decimal;
-  list-style-type:upper-roman;
+
+.about ol{
+  
+  list-style-type:decimal;
+  text-align: center;
+  line-height: 2;
+  
 }
 
-
+/*end of about style */
 p {
 
 }

@@ -5,6 +5,7 @@
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 html {
+  text-align: center;
 }
 
 body {
@@ -177,10 +178,8 @@ input[type=submit]{
 	color:black;
 	margin:auto;
 	background-color:white;
-	align:center;
 }	
 form {
-	align:center;
 	display:inline-block;
 	
 

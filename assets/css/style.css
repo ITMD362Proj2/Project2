@@ -90,9 +90,9 @@ h1 {
 }
 
 
-.about ol{
+.about ul{
   
-  list-style-type:decimal;
+ /* list-style-type:decimal;*/
   text-align: center;
   line-height: 2;
   

@@ -7,10 +7,6 @@
 html {
   text-align: center;
 }
-
-body {
-
-}
 .ibody p{
   opacity: 1;
 }
@@ -19,13 +15,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
-/*  background-image: url("assets/media/Thinker.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% auto;*/
-  /*width: 400px;
-  height: 400px;
-  border: 2px dashed #333;*/
 }
 #thinker{
   opacity: 0.3;
@@ -42,9 +31,6 @@ h1 {
   text-align: center;
   color:rgb(11, 8, 163);
 }
-.index{
-
-}
 .ibody{
   text-align: center;
   color:rgb(22, 19, 209);
@@ -57,62 +43,35 @@ h1 {
   padding: 0.5em;
   margin-top: 2.5em;
 }
-
 .index p{
   font-size: 1.1em;
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 0.5em;
   margin: 0;
 }
-
-
 /* made for the about page*/
-.about{}
 .about p{
   text-align: center;
   line-height: 2;
-  /*color:rgb(22, 19, 209);*/
-  /*text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5),
-  1px 1px 2px rgba(0, 0, 0, 0.5)*/
-
-  
 }
-
 .about h2 {
   font-size: 1.182em;
   line-height: 0.75em; /* 26px / ~ 120% */
   padding: 0.5em;
-
   margin: 0;
   text-align: center;
   color:rgb(11, 8, 163);
-
 }
-
-
 .about ul{
-  
- /* list-style-type:decimal;*/
   text-align: center;
   line-height: 2;
-  
 }
-
 /*end of about style */
-p {
-
-}
-
-ul{
-
-}
-
 nav{
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
- 
 }
 .logo {
   padding: 5px;
@@ -123,32 +82,24 @@ nav{
   margin: auto;
   display: inline-flex;
   opacity: 0;
-
 }
-
 nav li{
   display:inline;
   font-size: 1.3em;
-  
 }
 nav a{
   display:inline-flex;
   padding:10px;
   text-decoration:none;
-  /*background-color:rgb(29, 148, 216);
-  color:rgb(15, 32, 32);*/
   color:rgb(11, 8, 163);
 }
 nav a:hover {
-  /*background-color:#009;*/
   color:rgb(39, 167, 218);
 }
-
 #checkbox-label{
 	vertical-align:middle;
 	display:inline-block;
 }
-
 label{
 	width:240px;
 	font-size:15pt;
@@ -157,7 +108,6 @@ label{
 	display:inline-block;
 	font-weight:bold;
 }
-
 input {
 	border-radius:20px;
 	border-color:#DC143C;
@@ -167,12 +117,10 @@ input {
 	background-color:black;
 	color:white;
 	font-weight:bold;
-
 }
 ::placeholder{
 	color:white;
 }
-
 input[type=submit]{
 	width:240px;
 	color:black;
@@ -181,38 +129,20 @@ input[type=submit]{
 }	
 form {
 	display:inline-block;
-	
-
 }
-
-input:hover {
-
-}
-
 @media only screen and (min-width: 720px) {
-
-
   html {
     font-size: 125%;
-  }
-  .logo{
-   
   }
   .logo{
     opacity: 1;
   }
 }
 @media only screen and (min-width: 1024px) {
-
   html {
     font-size: 150%;
   }
   .logo{
     opacity: 1;
-  }
-  h1 {
-  }
-  nav li{
-    
   }
 }

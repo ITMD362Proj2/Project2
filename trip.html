@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+	<script src="js/script.js" async></script>
   </head>
   <body class="trip">
     <div class="navigation"> 
@@ -20,27 +21,25 @@
         </ul>
       </nav>
     </div>
-    <h1>Sign Up</h1>
+    <h5>Sign Up</h5>
+	<h5> Join our confrence to be something bigger</h5>
+	<h5>than just yourself!</h5>
 	<div class= "dbody">
 		<form id="signup_form" method="get"  autocomplete="on" action="null">
 
 				<label for="name">Enter Name:</label>
 				<input type="text" id="name" placeholder="First and Last Name"/>
-<<<<<<< Updated upstream
 				<label for="e-mail">E-mail</label>
 				<input type="email" id="e-mail" placeholder="example@gmail.com"/>
-=======
-				
-				<label for="email">E-mail</label>
-				<input type="email" id="email" placeholder="example@gmail.com"/>
-				
->>>>>>> Stashed changes
 				<label for="phone">Phone Number:</label>
 				<input type="text" id="phone" placeholder="773-909-8576"/>
 				<label for="DOB">Date of Birth</label>
 				<input type="date" id="DOB" name="Date_of_birth"/>
-				<input type="checkbox" id="age" onclick="agecheck()">
+				<input type="checkbox" id="sign" onclick="signup()">
 				<label for="age" id="checkbox-label">I am 18 years old or older</label>
+				
+
+				
 				<input name="form" type="submit" value="Confirm Sign Up"/>
 			</form>
 	</div>

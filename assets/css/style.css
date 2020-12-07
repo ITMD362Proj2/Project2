@@ -61,6 +61,7 @@ h1 {
 }
 /* made for the about page*/
 .about p{
+  margin-bottom: 10px;
   text-align: center;
   line-height: 2;
 }
@@ -72,7 +73,8 @@ h1 {
   text-align: center;
   color:rgb(11, 8, 163);
 }
-.about ul{
+.about ol{
+  margin-bottom: 10px;
   text-align: center;
   line-height: 2;
 }

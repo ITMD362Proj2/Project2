@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+	<script src="js/script.js" async></script>
   </head>
   <body class="trip">
     <div class="navigation"> 
@@ -20,8 +21,12 @@
         </ul>
       </nav>
     </div>
-    <h1>Sign Up</h1>
-		<form autocomplete="on">
+    <h5>Sign Up</h5>
+	<h5> Join our confrence to be something bigger</h5>
+	<h5>than just yourself!</h5>
+	<div class= "dbody">
+		<form id="signup_form" method="get"  autocomplete="on" action="null">
+
 				<label for="name">Enter Name:</label>
 				<input type="text" id="name" placeholder="First and Last Name"/>
 				<label for="e-mail">E-mail</label>
@@ -32,7 +37,11 @@
 				<input type="date" id="DOB" name="Date_of_birth"/>
 				<input type="checkbox" id="age" onclick="agecheck()">
 				<label for="age" id="checkbox-label">I am 18 years old or older</label>
+				
+
+				
 				<input name="form" type="submit" value="Confirm Sign Up"/>
 			</form>
+	</div>
   </body>
 </html>

@@ -35,12 +35,6 @@ h1 {
   color:rgb(11, 8, 163);
 }
 
-
-
-.index{
-
-}
-
 .ibody{
   text-align: center;
   color:rgb(22, 19, 209);
@@ -116,10 +110,11 @@ h5{
 
 #checkbox-label{
 	vertical-align:middle;
-	display:inline-block;
+  display:inline-block;
 }
 input[type=checkbox]{
-	display:inline;
+  display:inline;
+  transform: scale(2.5);
 }
 .trip{
 	background-color:#FAEBD7;
@@ -150,20 +145,21 @@ label{
 input {
 	border-radius:20px;
 	border-color:black;
-	display:block;
+	display:inline-block;
 	padding:20px 20px;
 	margin:auto;
 	background-color:white;
 	color:black;
 	font-weight:bold;
-	vertical-align:middle;
+  vertical-align:middle;
+  width: 90%;
 	
 }
 ::placeholder{
 	color:black;
 }
 input[type=submit]{
-	width:240px;
+	width:90%;
 	color:black;
 	margin:auto;
 	background-color:white;
@@ -171,22 +167,23 @@ input[type=submit]{
 }	
 form {
 	display:inline-block;
-
 	text-align:center;
 
 }
 	
-
-input:hover {
-
-
-}
 @media only screen and (min-width: 720px) {
   html {
     font-size: 125%;
   }
   .logo{
     opacity: 1;
+  }
+  input{
+    width: 200px;
+    display: block;
+  }
+  input[type=checkbox]{
+    transform: scale(1.5);
   }
 }
 @media only screen and (min-width: 1024px) {
